@@ -35,11 +35,3 @@ CocoaPods<br><br>
 AFNetworking - Used to create and manage requests as well verify device connection with the internet<br>
 Mantle - Used to mapping the models of the project<br><br><br>
 
-<b>Ricardo Hurla</b><br>
-Email: rihurla@gmail.com<br>
-Portfolio: http://www.rihurla.com/<br>
-Twitter: @rihurla<br>
-Facebook: facebook.com/rihurla<br>
-LinkedIn: https://br.linkedin.com/in/rihurla<br>
-Skype: rihurla<br>
-Phone: (44) 749333 1496
