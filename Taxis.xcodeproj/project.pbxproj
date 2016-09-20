@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010C4A3C1D64645600EB0E9F /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A3B1D64645600EB0E9F /* ServiceManager.m */; };
+		010C4A401D64680600EB0E9F /* Taxi.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A3F1D64680600EB0E9F /* Taxi.m */; };
+		010C4A471D647C4A00EB0E9F /* GeoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A461D647C4A00EB0E9F /* GeoFrame.m */; };
+		010C4A4A1D647CEE00EB0E9F /* GeoFrame+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A491D647CEE00EB0E9F /* GeoFrame+Actions.m */; };
+		010C4A521D65CD8B00EB0E9F /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A511D65CD8B00EB0E9F /* IntroductionViewController.m */; };
+		010C4A541D67397900EB0E9F /* GeoFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A531D67397900EB0E9F /* GeoFrameTests.m */; };
+		010C4A561D673C5800EB0E9F /* ConstantsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A551D673C5800EB0E9F /* ConstantsTests.m */; };
+		010C4A581D673D7400EB0E9F /* ServiceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A571D673D7400EB0E9F /* ServiceManagerTests.m */; };
+		010C4A5B1D6891B300EB0E9F /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C4A5A1D6891B200EB0E9F /* LocationManager.m */; };
+		0119A0FC1D69C87200E2AFFF /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = 0119A0FB1D69C87200E2AFFF /* Ride.m */; };
+		0152ADED1D68C65C00760B66 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152ADEC1D68C65C00760B66 /* RegistrationViewController.m */; };
+		0152ADF01D68CFDE00760B66 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152ADEF1D68CFDE00760B66 /* User.m */; };
+		0152ADF31D68E1A900760B66 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0152ADF21D68E1A900760B66 /* AppManager.m */; };
+		016363D61D6A0EDC0064EAEA /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 016363D51D6A0EDC0064EAEA /* Annotation.m */; };
+		018959A51D627C3400B048C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959A41D627C3400B048C6 /* main.m */; };
+		018959A81D627C3400B048C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959A71D627C3400B048C6 /* AppDelegate.m */; };
+		018959AE1D627C3400B048C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018959AC1D627C3400B048C6 /* Main.storyboard */; };
+		018959B01D627C3400B048C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018959AF1D627C3400B048C6 /* Assets.xcassets */; };
+		018959B31D627C3400B048C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018959B11D627C3400B048C6 /* LaunchScreen.storyboard */; };
+		018959BE1D627C3400B048C6 /* TaxisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959BD1D627C3400B048C6 /* TaxisTests.m */; };
+		018959C91D627C3400B048C6 /* TaxisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959C81D627C3400B048C6 /* TaxisUITests.m */; };
+		018959D81D627C9000B048C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959D71D627C9000B048C6 /* MainViewController.m */; };
+		018959DC1D627D0C00B048C6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 018959DB1D627D0C00B048C6 /* Constants.m */; };
+		018959DF1D627DE600B048C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018959DE1D627DE600B048C6 /* MapKit.framework */; };
+		01A6305D1D6AFA300096A961 /* MainViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6305C1D6AFA300096A961 /* MainViewControllerTests.m */; };
+		496AF5A430633B58C224A716 /* libPods-TaxisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6932856215392DDC99C2BA /* libPods-TaxisTests.a */; };
+		8556FCF5EAE0BB4165CE91CC /* libPods-Taxis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4173C8D3BDF1C94AC3F1E2 /* libPods-Taxis.a */; };
+		8CF82B57E047DFF8904DFE93 /* libPods-TaxisUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 750E317E110F650F57E7E893 /* libPods-TaxisUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018959BA1D627C3400B048C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018959981D627C3400B048C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0189599F1D627C3400B048C6;
+			remoteInfo = Taxis;
+		};
+		018959C51D627C3400B048C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018959981D627C3400B048C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0189599F1D627C3400B048C6;
+			remoteInfo = Taxis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010C4A3A1D64645600EB0E9F /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceManager.h; path = Service/ServiceManager.h; sourceTree = "<group>"; };
+		010C4A3B1D64645600EB0E9F /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceManager.m; path = Service/ServiceManager.m; sourceTree = "<group>"; };
+		010C4A3E1D64680600EB0E9F /* Taxi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Taxi.h; path = Service/Model/Taxi.h; sourceTree = "<group>"; };
+		010C4A3F1D64680600EB0E9F /* Taxi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Taxi.m; path = Service/Model/Taxi.m; sourceTree = "<group>"; };
+		010C4A451D647C4A00EB0E9F /* GeoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoFrame.h; path = Service/Helpers/GeoFrame.h; sourceTree = "<group>"; };
+		010C4A461D647C4A00EB0E9F /* GeoFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoFrame.m; path = Service/Helpers/GeoFrame.m; sourceTree = "<group>"; };
+		010C4A481D647CEE00EB0E9F /* GeoFrame+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeoFrame+Actions.h"; path = "Service/Helpers/GeoFrame+Actions.h"; sourceTree = "<group>"; };
+		010C4A491D647CEE00EB0E9F /* GeoFrame+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GeoFrame+Actions.m"; path = "Service/Helpers/GeoFrame+Actions.m"; sourceTree = "<group>"; };
+		010C4A501D65CD8B00EB0E9F /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroductionViewController.h; path = Introduction/IntroductionViewController.h; sourceTree = "<group>"; };
+		010C4A511D65CD8B00EB0E9F /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroductionViewController.m; path = Introduction/IntroductionViewController.m; sourceTree = "<group>"; };
+		010C4A531D67397900EB0E9F /* GeoFrameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFrameTests.m; sourceTree = "<group>"; };
+		010C4A551D673C5800EB0E9F /* ConstantsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantsTests.m; sourceTree = "<group>"; };
+		010C4A571D673D7400EB0E9F /* ServiceManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManagerTests.m; sourceTree = "<group>"; };
+		010C4A591D6891B200EB0E9F /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = Service/Helpers/LocationManager.h; sourceTree = "<group>"; };
+		010C4A5A1D6891B200EB0E9F /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = Service/Helpers/LocationManager.m; sourceTree = "<group>"; };
+		0119A0FA1D69C87200E2AFFF /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ride.h; path = Service/Model/Ride.h; sourceTree = "<group>"; };
+		0119A0FB1D69C87200E2AFFF /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ride.m; path = Service/Model/Ride.m; sourceTree = "<group>"; };
+		0152ADEB1D68C65C00760B66 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationViewController.h; path = Registration/RegistrationViewController.h; sourceTree = "<group>"; };
+		0152ADEC1D68C65C00760B66 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationViewController.m; path = Registration/RegistrationViewController.m; sourceTree = "<group>"; };
+		0152ADEE1D68CFDE00760B66 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Service/Model/User.h; sourceTree = "<group>"; };
+		0152ADEF1D68CFDE00760B66 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Service/Model/User.m; sourceTree = "<group>"; };
+		0152ADF11D68E1A900760B66 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = Service/Helpers/AppManager.h; sourceTree = "<group>"; };
+		0152ADF21D68E1A900760B66 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppManager.m; path = Service/Helpers/AppManager.m; sourceTree = "<group>"; };
+		016363D41D6A0EDC0064EAEA /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Annotation.h; path = Main/Annotation/Annotation.h; sourceTree = "<group>"; };
+		016363D51D6A0EDC0064EAEA /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Annotation.m; path = Main/Annotation/Annotation.m; sourceTree = "<group>"; };
+		018959A01D627C3400B048C6 /* Taxis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018959A41D627C3400B048C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		018959A61D627C3400B048C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		018959A71D627C3400B048C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		018959AD1D627C3400B048C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		018959AF1D627C3400B048C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018959B21D627C3400B048C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		018959B41D627C3400B048C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018959B91D627C3400B048C6 /* TaxisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018959BD1D627C3400B048C6 /* TaxisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxisTests.m; sourceTree = "<group>"; };
+		018959BF1D627C3400B048C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018959C41D627C3400B048C6 /* TaxisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018959C81D627C3400B048C6 /* TaxisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxisUITests.m; sourceTree = "<group>"; };
+		018959CA1D627C3400B048C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018959D61D627C9000B048C6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Main/MainViewController.h; sourceTree = "<group>"; };
+		018959D71D627C9000B048C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Main/MainViewController.m; sourceTree = "<group>"; };
+		018959DA1D627D0C00B048C6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Service/Constants.h; sourceTree = "<group>"; };
+		018959DB1D627D0C00B048C6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Service/Constants.m; sourceTree = "<group>"; };
+		018959DE1D627DE600B048C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		01A6305C1D6AFA300096A961 /* MainViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTests.m; sourceTree = "<group>"; };
+		1A6932856215392DDC99C2BA /* libPods-TaxisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaxisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3814FD303E94D3DF6B00D356 /* Pods-Taxis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taxis/Pods-Taxis.debug.xcconfig"; sourceTree = "<group>"; };
+		391B11F503BDB671415E4A14 /* Pods-TaxisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxisUITests/Pods-TaxisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4173C8D3BDF1C94AC3F1E2 /* libPods-Taxis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Taxis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C3C509759404DE30E848D8 /* Pods-TaxisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxisTests/Pods-TaxisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750E317E110F650F57E7E893 /* libPods-TaxisUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaxisUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CCF26DB156497C008222A84 /* Pods-TaxisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxisTests/Pods-TaxisTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD86E2FA8DA6678A33533E8E /* Pods-Taxis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taxis/Pods-Taxis.release.xcconfig"; sourceTree = "<group>"; };
+		FC5E711204C46512EACDEAAE /* Pods-TaxisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxisUITests/Pods-TaxisUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0189599D1D627C3400B048C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018959DF1D627DE600B048C6 /* MapKit.framework in Frameworks */,
+				8556FCF5EAE0BB4165CE91CC /* libPods-Taxis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959B61D627C3400B048C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496AF5A430633B58C224A716 /* libPods-TaxisTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959C11D627C3400B048C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF82B57E047DFF8904DFE93 /* libPods-TaxisUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010C4A3D1D6467A800EB0E9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				010C4A3E1D64680600EB0E9F /* Taxi.h */,
+				010C4A3F1D64680600EB0E9F /* Taxi.m */,
+				0152ADEE1D68CFDE00760B66 /* User.h */,
+				0152ADEF1D68CFDE00760B66 /* User.m */,
+				0119A0FA1D69C87200E2AFFF /* Ride.h */,
+				0119A0FB1D69C87200E2AFFF /* Ride.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		010C4A411D647A1500EB0E9F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				010C4A481D647CEE00EB0E9F /* GeoFrame+Actions.h */,
+				010C4A491D647CEE00EB0E9F /* GeoFrame+Actions.m */,
+				010C4A451D647C4A00EB0E9F /* GeoFrame.h */,
+				010C4A461D647C4A00EB0E9F /* GeoFrame.m */,
+				010C4A591D6891B200EB0E9F /* LocationManager.h */,
+				010C4A5A1D6891B200EB0E9F /* LocationManager.m */,
+				0152ADF11D68E1A900760B66 /* AppManager.h */,
+				0152ADF21D68E1A900760B66 /* AppManager.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		010C4A4B1D65C87E00EB0E9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0152ADEA1D68C63A00760B66 /* Resgistration */,
+				018959D91D627CF100B048C6 /* Main */,
+				010C4A4F1D65C8AF00EB0E9F /* Intro */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		010C4A4F1D65C8AF00EB0E9F /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				010C4A501D65CD8B00EB0E9F /* IntroductionViewController.h */,
+				010C4A511D65CD8B00EB0E9F /* IntroductionViewController.m */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		0152ADEA1D68C63A00760B66 /* Resgistration */ = {
+			isa = PBXGroup;
+			children = (
+				0152ADEB1D68C65C00760B66 /* RegistrationViewController.h */,
+				0152ADEC1D68C65C00760B66 /* RegistrationViewController.m */,
+			);
+			name = Resgistration;
+			sourceTree = "<group>";
+		};
+		016363D31D6A0EA00064EAEA /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				016363D41D6A0EDC0064EAEA /* Annotation.h */,
+				016363D51D6A0EDC0064EAEA /* Annotation.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		016363D71D6A1B0F0064EAEA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				018959A61D627C3400B048C6 /* AppDelegate.h */,
+				018959A71D627C3400B048C6 /* AppDelegate.m */,
+				018959AC1D627C3400B048C6 /* Main.storyboard */,
+				018959AF1D627C3400B048C6 /* Assets.xcassets */,
+				018959B11D627C3400B048C6 /* LaunchScreen.storyboard */,
+				018959B41D627C3400B048C6 /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		018959971D627C3400B048C6 = {
+			isa = PBXGroup;
+			children = (
+				018959A21D627C3400B048C6 /* Taxis */,
+				018959BC1D627C3400B048C6 /* TaxisTests */,
+				018959C71D627C3400B048C6 /* TaxisUITests */,
+				018959E01D627E3900B048C6 /* Frameworks */,
+				018959A11D627C3400B048C6 /* Products */,
+				4D726B3A426557A2EFD51AAD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		018959A11D627C3400B048C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018959A01D627C3400B048C6 /* Taxis.app */,
+				018959B91D627C3400B048C6 /* TaxisTests.xctest */,
+				018959C41D627C3400B048C6 /* TaxisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018959A21D627C3400B048C6 /* Taxis */ = {
+			isa = PBXGroup;
+			children = (
+				016363D71D6A1B0F0064EAEA /* App */,
+				010C4A411D647A1500EB0E9F /* Helpers */,
+				018959DD1D627D1300B048C6 /* Services */,
+				010C4A4B1D65C87E00EB0E9F /* View */,
+				018959A31D627C3400B048C6 /* Supporting Files */,
+			);
+			path = Taxis;
+			sourceTree = "<group>";
+		};
+		018959A31D627C3400B048C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				018959A41D627C3400B048C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		018959BC1D627C3400B048C6 /* TaxisTests */ = {
+			isa = PBXGroup;
+			children = (
+				018959BD1D627C3400B048C6 /* TaxisTests.m */,
+				010C4A531D67397900EB0E9F /* GeoFrameTests.m */,
+				010C4A551D673C5800EB0E9F /* ConstantsTests.m */,
+				010C4A571D673D7400EB0E9F /* ServiceManagerTests.m */,
+				018959BF1D627C3400B048C6 /* Info.plist */,
+			);
+			path = TaxisTests;
+			sourceTree = "<group>";
+		};
+		018959C71D627C3400B048C6 /* TaxisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				018959C81D627C3400B048C6 /* TaxisUITests.m */,
+				01A6305C1D6AFA300096A961 /* MainViewControllerTests.m */,
+				018959CA1D627C3400B048C6 /* Info.plist */,
+			);
+			path = TaxisUITests;
+			sourceTree = "<group>";
+		};
+		018959D91D627CF100B048C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				016363D31D6A0EA00064EAEA /* Annotation */,
+				018959D61D627C9000B048C6 /* MainViewController.h */,
+				018959D71D627C9000B048C6 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		018959DD1D627D1300B048C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				010C4A3D1D6467A800EB0E9F /* Model */,
+				018959DA1D627D0C00B048C6 /* Constants.h */,
+				018959DB1D627D0C00B048C6 /* Constants.m */,
+				010C4A3A1D64645600EB0E9F /* ServiceManager.h */,
+				010C4A3B1D64645600EB0E9F /* ServiceManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		018959E01D627E3900B048C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018959DE1D627DE600B048C6 /* MapKit.framework */,
+				4C4173C8D3BDF1C94AC3F1E2 /* libPods-Taxis.a */,
+				1A6932856215392DDC99C2BA /* libPods-TaxisTests.a */,
+				750E317E110F650F57E7E893 /* libPods-TaxisUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D726B3A426557A2EFD51AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3814FD303E94D3DF6B00D356 /* Pods-Taxis.debug.xcconfig */,
+				AD86E2FA8DA6678A33533E8E /* Pods-Taxis.release.xcconfig */,
+				74C3C509759404DE30E848D8 /* Pods-TaxisTests.debug.xcconfig */,
+				9CCF26DB156497C008222A84 /* Pods-TaxisTests.release.xcconfig */,
+				391B11F503BDB671415E4A14 /* Pods-TaxisUITests.debug.xcconfig */,
+				FC5E711204C46512EACDEAAE /* Pods-TaxisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0189599F1D627C3400B048C6 /* Taxis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018959CD1D627C3400B048C6 /* Build configuration list for PBXNativeTarget "Taxis" */;
+			buildPhases = (
+				E829EEEEFB9C375BB1F9C0E7 /* [CP] Check Pods Manifest.lock */,
+				0189599C1D627C3400B048C6 /* Sources */,
+				0189599D1D627C3400B048C6 /* Frameworks */,
+				0189599E1D627C3400B048C6 /* Resources */,
+				594E3748B4A2BEF975AC6162 /* [CP] Embed Pods Frameworks */,
+				6F84B8E74AEB6D8DABFA95DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taxis;
+			productName = Taxis;
+			productReference = 018959A01D627C3400B048C6 /* Taxis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018959B81D627C3400B048C6 /* TaxisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018959D01D627C3400B048C6 /* Build configuration list for PBXNativeTarget "TaxisTests" */;
+			buildPhases = (
+				83CEC4BCA7E63387ABD8FF37 /* [CP] Check Pods Manifest.lock */,
+				018959B51D627C3400B048C6 /* Sources */,
+				018959B61D627C3400B048C6 /* Frameworks */,
+				018959B71D627C3400B048C6 /* Resources */,
+				DAB9651C0CE7FABDA6B856A3 /* [CP] Embed Pods Frameworks */,
+				B1DE76AD64FD8B7A9E43C0D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018959BB1D627C3400B048C6 /* PBXTargetDependency */,
+			);
+			name = TaxisTests;
+			productName = TaxisTests;
+			productReference = 018959B91D627C3400B048C6 /* TaxisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		018959C31D627C3400B048C6 /* TaxisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018959D31D627C3400B048C6 /* Build configuration list for PBXNativeTarget "TaxisUITests" */;
+			buildPhases = (
+				491F151DEFDCE719EB4A0337 /* [CP] Check Pods Manifest.lock */,
+				018959C01D627C3400B048C6 /* Sources */,
+				018959C11D627C3400B048C6 /* Frameworks */,
+				018959C21D627C3400B048C6 /* Resources */,
+				0B24B846BBBE4F3438086BDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018959C61D627C3400B048C6 /* PBXTargetDependency */,
+			);
+			name = TaxisUITests;
+			productName = TaxisUITests;
+			productReference = 018959C41D627C3400B048C6 /* TaxisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018959981D627C3400B048C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rihurla;
+				TargetAttributes = {
+					0189599F1D627C3400B048C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					018959B81D627C3400B048C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0189599F1D627C3400B048C6;
+					};
+					018959C31D627C3400B048C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0189599F1D627C3400B048C6;
+					};
+				};
+			};
+			buildConfigurationList = 0189599B1D627C3400B048C6 /* Build configuration list for PBXProject "Taxis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018959971D627C3400B048C6;
+			productRefGroup = 018959A11D627C3400B048C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0189599F1D627C3400B048C6 /* Taxis */,
+				018959B81D627C3400B048C6 /* TaxisTests */,
+				018959C31D627C3400B048C6 /* TaxisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189599E1D627C3400B048C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018959B31D627C3400B048C6 /* LaunchScreen.storyboard in Resources */,
+				018959B01D627C3400B048C6 /* Assets.xcassets in Resources */,
+				018959AE1D627C3400B048C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959B71D627C3400B048C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959C21D627C3400B048C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B24B846BBBE4F3438086BDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxisUITests/Pods-TaxisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		491F151DEFDCE719EB4A0337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		594E3748B4A2BEF975AC6162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taxis/Pods-Taxis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F84B8E74AEB6D8DABFA95DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taxis/Pods-Taxis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CEC4BCA7E63387ABD8FF37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DE76AD64FD8B7A9E43C0D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxisTests/Pods-TaxisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB9651C0CE7FABDA6B856A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxisTests/Pods-TaxisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E829EEEEFB9C375BB1F9C0E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0189599C1D627C3400B048C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016363D61D6A0EDC0064EAEA /* Annotation.m in Sources */,
+				010C4A471D647C4A00EB0E9F /* GeoFrame.m in Sources */,
+				018959A81D627C3400B048C6 /* AppDelegate.m in Sources */,
+				018959D81D627C9000B048C6 /* MainViewController.m in Sources */,
+				0152ADED1D68C65C00760B66 /* RegistrationViewController.m in Sources */,
+				010C4A3C1D64645600EB0E9F /* ServiceManager.m in Sources */,
+				0152ADF31D68E1A900760B66 /* AppManager.m in Sources */,
+				018959A51D627C3400B048C6 /* main.m in Sources */,
+				010C4A521D65CD8B00EB0E9F /* IntroductionViewController.m in Sources */,
+				010C4A5B1D6891B300EB0E9F /* LocationManager.m in Sources */,
+				0119A0FC1D69C87200E2AFFF /* Ride.m in Sources */,
+				0152ADF01D68CFDE00760B66 /* User.m in Sources */,
+				018959DC1D627D0C00B048C6 /* Constants.m in Sources */,
+				010C4A401D64680600EB0E9F /* Taxi.m in Sources */,
+				010C4A4A1D647CEE00EB0E9F /* GeoFrame+Actions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959B51D627C3400B048C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018959BE1D627C3400B048C6 /* TaxisTests.m in Sources */,
+				010C4A561D673C5800EB0E9F /* ConstantsTests.m in Sources */,
+				010C4A541D67397900EB0E9F /* GeoFrameTests.m in Sources */,
+				010C4A581D673D7400EB0E9F /* ServiceManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018959C01D627C3400B048C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018959C91D627C3400B048C6 /* TaxisUITests.m in Sources */,
+				01A6305D1D6AFA300096A961 /* MainViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018959BB1D627C3400B048C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0189599F1D627C3400B048C6 /* Taxis */;
+			targetProxy = 018959BA1D627C3400B048C6 /* PBXContainerItemProxy */;
+		};
+		018959C61D627C3400B048C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0189599F1D627C3400B048C6 /* Taxis */;
+			targetProxy = 018959C51D627C3400B048C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018959AC1D627C3400B048C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018959AD1D627C3400B048C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		018959B11D627C3400B048C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018959B21D627C3400B048C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018959CB1D627C3400B048C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		018959CC1D627C3400B048C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		018959CE1D627C3400B048C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3814FD303E94D3DF6B00D356 /* Pods-Taxis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taxis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.Taxis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		018959CF1D627C3400B048C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD86E2FA8DA6678A33533E8E /* Pods-Taxis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taxis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.Taxis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		018959D11D627C3400B048C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C3C509759404DE30E848D8 /* Pods-TaxisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.TaxisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxis.app/Taxis";
+			};
+			name = Debug;
+		};
+		018959D21D627C3400B048C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCF26DB156497C008222A84 /* Pods-TaxisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.TaxisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxis.app/Taxis";
+			};
+			name = Release;
+		};
+		018959D41D627C3400B048C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391B11F503BDB671415E4A14 /* Pods-TaxisUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TaxisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.TaxisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Taxis;
+			};
+			name = Debug;
+		};
+		018959D51D627C3400B048C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5E711204C46512EACDEAAE /* Pods-TaxisUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TaxisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rihurla.TaxisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Taxis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0189599B1D627C3400B048C6 /* Build configuration list for PBXProject "Taxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018959CB1D627C3400B048C6 /* Debug */,
+				018959CC1D627C3400B048C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018959CD1D627C3400B048C6 /* Build configuration list for PBXNativeTarget "Taxis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018959CE1D627C3400B048C6 /* Debug */,
+				018959CF1D627C3400B048C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018959D01D627C3400B048C6 /* Build configuration list for PBXNativeTarget "TaxisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018959D11D627C3400B048C6 /* Debug */,
+				018959D21D627C3400B048C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018959D31D627C3400B048C6 /* Build configuration list for PBXNativeTarget "TaxisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018959D41D627C3400B048C6 /* Debug */,
+				018959D51D627C3400B048C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018959981D627C3400B048C6 /* Project object */;
+}

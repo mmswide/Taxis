@@ -1,0 +1,5 @@
+.DS_Store
+Pods/*
+Taxis.xcodeproj/project.xcworkspace/*
+Taxis.xcodeproj/xcuserdata/*
+Taxis.xcworkspace/*
